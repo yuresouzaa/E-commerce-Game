@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+:root{
+    --purple: #350669;
+    --blue-dark: #112c97;
+    --blue-light: #0275EF;
+    --pink-dark: #ea25b5;
+    --pink-light: #ff82f4;
+}
+body, html{
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    min-height: 100%;
+    background-image: url(./imagens/background-image.jpg);
+    background-size: cover;
+    overflow: hidden;
+    
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.card-login{
+    background-color: var(--purple);
+    border-radius: 30px;
+    width: 40rem;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.card-login img{
+    width: 10rem;
+}
+.login{
+    margin-left: 40px;
+}
+.login h1{
+    color: var(--blue-light);
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.login h2{
+    color: var(--pink-dark);
+    
+}
