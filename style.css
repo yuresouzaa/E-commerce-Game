@@ -8,8 +8,9 @@
     --purple: #350669;
     --blue-dark: #112c97;
     --blue-light: #0275EF;
-    --pink-dark: #ea25b5;
-    --pink-light: #ff82f4;
+    --dark-: #181b20;
+    --placeholder:#252a32;
+    --placeholder-text:#4b4e53;
 }
 body, html{
     height: 100%;
@@ -18,7 +19,7 @@ body, html{
 .main{
     width: 100%;
     min-height: 100%;
-    background-image: url(./imagens/background-image.jpg);
+    background-image: url(./imagens/viego.jpg);
     background-size: cover;
     overflow: hidden;
     
@@ -27,7 +28,6 @@ body, html{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-
 }
 .card-login{
     background-color: var(--purple);
@@ -52,5 +52,13 @@ body, html{
 }
 .login h2{
     color: var(--pink-dark);
-    
+}
+input{
+    width: 300px;
+    height: 3rem;
+    border-radius: 10px;
+    padding: 12px 16px 14px;
+    background-color: var(--placeholder);
+    border: none;
+    color: var(--placeholder-text);
 }
