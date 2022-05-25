@@ -79,7 +79,7 @@ input:focus{
     justify-content: end;
     margin-top: 2rem;
     border-bottom: 1px var(--placeholder-text) dotted;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 .continue button{
     height: 70%;
@@ -97,8 +97,23 @@ input:focus{
 
 }
 .cadastro{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 7rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.cadastro button{
+    width: 20rem;
+    height: 3.5rem;
+    border-radius: 1rem;
+    background-color: var(--blue-dark);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.cadastro button:hover{
+    background-color: var(--blue-light);
+    cursor: pointer;
 }
